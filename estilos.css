@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{  
+    background-color: #df66be;
+ 
+}
+
+.contenedor-total{
+    max-width: 1200px;
+    background: url(fondo-televisor.png);      
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: 50%;
+    height: 100vh;      
+}
+
+.programa1{
+    width: 393px;
+    height: 299px;
+    position: absolute;
+    top: 220px;
+    left: 421px;
+    background-color: #45f8f5;
+    position: relative;
+    border: 3px solid #2c333d;
+    border-radius: 6px;
+
+}
+
+.nube1{
+    width: 70px;
+    height: 30px;
+    background: url(cloud1.png);
+    background-size: 100% 100%;
+    position: absolute;
+    top: 10px;
+    animation: movimiento1 9s alternate infinite ease-in;
+    animation-delay: 1s;
+}
+
+
+@keyframes movimiento1{
+   from{
+       margin-left: 75%;
+   }
+   to{
+       margin-left: 0%;
+    }
+}
+
+.nube2{
+    width: 80px;
+    height: 30px;
+    background: url(cloud2.png);
+    background-size: 100% 100%;
+    position: absolute;
+    top: 30px;
+    animation: movimiento2 9s alternate infinite ease-in;
+    animation-delay: 3s;
+}
+
+
+@keyframes movimiento2{
+    from{
+        margin-left: 65%;
+    }
+    to{
+        margin-left: 0%;
+     }
+ }
+
+ .nube3{
+    width: 90px;
+    height: 40px;
+    background: url(cloud3.png);
+    background-size: 100% 100%;
+    position: absolute;
+    top: 80px;
+    animation: movimiento3 10s alternate infinite ease-in;
+    animation-delay: 3s;
+}
+
+@keyframes movimiento3{
+    from{
+        margin-left: 70%;
+    }
+    to{
+        margin-left: 0%;
+     }
+ }
+
+ .nube4{
+    width: 90px;
+    height: 50px;
+    background: url(cloud4.png);
+    background-size: 100% 100%;
+    position: absolute;
+    top: 140px;
+    animation: movimiento3 7s alternate infinite ease-in;
+    animation-delay: 3s;
+}
+
+@keyframes movimiento4{
+    from{
+        margin-left: 40%;
+    }
+    to{
+        margin-left: 0%;
+     }
+ }
+
+ .nube5{
+    width: 100px;
+    height: 130px;
+    background: url(cloud5.png);
+    background-size: 100% 100%;
+    position: absolute;
+    top: 110px;
+    animation: movimiento5 9s alternate infinite ease-in;
+    animation-delay: 3s;
+}
+
+@keyframes movimiento5{
+    from{
+        margin-left: 70%;
+    }
+    to{
+        margin-left: 0%;
+     }
+ }
+
+.texto{
+    position: absolute;
+    top: 30%;
+    left: 40%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    display: inline-block;
+}
+
+
+ .texto p{
+    font-family: 'Indie Flower', cursive;
+    font-weight: bold;
+    color: #fddb3a;
+    text-align: center;
+ }
