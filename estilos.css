@@ -9,27 +9,112 @@ body{
  
 }
 
+.contenedor{
+    width: 90%;
+    margin: auto;
+    max-width: 1200px;
+   
+}
+
+header .contenedor{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ 
+}
+
+header{
+    padding: 20px;
+    width: 40%;
+    background: #db57b8;
+    margin-left: 70%;
+       
+}
+
+
+
+header .logotipo{
+    color: #ebdb06;
+    font-size: 30px;
+    font-weight: normal;
+}
+
+header nav a{
+    color: #052d42;
+    text-decoration: none;
+    margin-right: 30px;
+   
+}
+
+header nav a:hover,
+header nav a.activo{
+    color: #e4fd05;
+}
+
+
 .contenedor-total{
     max-width: 1200px;
+    height: 100vh;  /*ver esto*/ 
+    margin: auto;
+        
+}
+
+.tv{
+    width: 600px;
+    height: 600px;
     background: url(fondo-televisor.png);      
     background-repeat: no-repeat;
-    background-attachment: fixed;
     background-position: 50%;
-    height: 100vh;      
+    object-fit: cover;
+    border: 2px solid rgb(172, 231, 9);
+    margin-top: 0;
+    padding: 0;
+   
+
+     
+}
+.contenedor-solo-programas{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 40px;
+    
 }
 
 .programa1{
     width: 393px;
     height: 299px;
-    position: absolute;
-    top: 220px;
-    left: 421px;
     background-color: #45f8f5;
     position: relative;
     border: 3px solid #2c333d;
     border-radius: 6px;
 
 }
+
+.programa2{
+    width: 393px;
+    height: 299px;
+    background-color: #fff;
+    position: relative;
+    border: 3px solid #dd1d03;
+    border-radius: 6px;
+    background: url(casaBob.png);
+    background-repeat: no-repeat;
+    object-fit: cover;
+ 
+
+}
+
+.programa3{
+    width: 393px;
+    height: 299px;
+    border: 2px solid blue;
+}
+
+/****************************************************PROGRAMA1*****************/
 
 .nube1{
     width: 70px;
@@ -150,3 +235,5 @@ body{
     color: #fddb3a;
     text-align: center;
  }
+
+/*************************************************************************/
